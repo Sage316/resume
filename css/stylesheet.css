@@ -9,6 +9,21 @@ body{
   }
   
   footer {
-    background-color: #343330;
+    background-color:rgb(137, 137, 143);
     text-align: center;
   }
+#education{
+  color: yellow;
+}
+h2.example {
+text-decoration: underline;
+}
+body {
+  font-size: 14px;
+  color: black;
+}
+
+h1 {
+  color: #ffc;
+  background-color: rgb(137, 137, 143);
+}
