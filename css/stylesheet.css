@@ -1,21 +1,24 @@
 html {}
 
 body {
-
+border:10px solid rgb(137, 137, 143);
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   color: black;
   padding: 20px;
+  margin: 0%;
 }
 
 header {
   background-color: rgb(137, 137, 143);
   text-align: center;
+  padding: 20px;
 }
 
 footer {
   background-color: rgb(137, 137, 143);
   text-align: center;
+  padding: 20px;
 }
 
 
@@ -48,4 +51,8 @@ section {
 
 .section-titles {
   font-size: 20px;
+}
+img{
+  border-radius: 100%;
+  border: 3px solid #fff;
 }
