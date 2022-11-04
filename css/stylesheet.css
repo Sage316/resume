@@ -1,29 +1,22 @@
-html {}
 
+/* HTML TAGS */
 body {
-border:10px solid rgb(137, 137, 143);
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   color: black;
-  padding: 20px;
-  margin: 0%;
+  margin: 0%;  
 }
 
 header {
-  background-color: rgb(137, 137, 143);
+  background-color: #808080;
   text-align: center;
   padding: 20px;
 }
 
 footer {
-  background-color: rgb(137, 137, 143);
+  background-color: #808080;
   text-align: center;
   padding: 20px;
-}
-
-
-h2.example {
-  color: #fff;
 }
 
 h1 {
@@ -33,26 +26,140 @@ h1 {
 
 section {
   background-color: #fff;
-  padding: 20px;
+  padding: 20px 40px;
+}
+
+img {
+  width: auto; 
+  height: 350px;
+  border-radius: 20%;
+  border: 3px solid #fff;
+}
+
+aside {
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 20px 50px;
+}
+
+p {
+  line-height: 18px;
+}
+
+
+/* ID's */
+
+#myHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#myPicture {
+  width: 40%;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+}
+
+#placeHolder {
+  width: 40%;
 }
 
 #title {
   font-size: 25px;
   color: #fff;
+  padding-bottom: 20px;
 }
 
 #hire {
-  color: #fff;
-  font-size: 20px;
-  background-color: #000;
-  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 100px;
+  cursor: pointer;
+}
+
+#content {
+  width: 40%;
+}
+
+#about {
+  width: 60%;
+  margin-left: 120px;
+  padding: 0px 100px;
+}
+
+ul#menuItems {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul#menuItems li {
+line-height: 30px;
+}
+
+#softSkills {
+  width: 30%;
+}
+#hardSkills {
+width: 70%;
 }
 
 .section-titles {
   font-size: 20px;
 }
-img{
-  border-radius: 100%;
-  border: 3px solid #fff;
+
+/* CLASSES */
+
+h2.example {
+  color: #fff;
+}
+
+.menuLinks {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background-color: red;
+  color: #fff;
+}
+
+.skillsContainer {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.greenText {
+  color: #4CAF50;
 }
